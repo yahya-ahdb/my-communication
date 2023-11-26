@@ -1,0 +1,23 @@
+footer {
+    background: #154875;
+}
+footer .links {
+    line-height: 2;
+    margin-right: 15px;
+}
+footer .links li {
+    position: relative;
+}
+footer .links li a{
+    font-weight: 100;
+}
+footer .links li::before {
+    content: ">";
+    position: absolute;
+    z-index: 10;
+    font-weight: bolder;
+    right: -10px;
+    top: 0;
+    color: #fac602;
+}
+    

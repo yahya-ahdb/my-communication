@@ -1,0 +1,75 @@
+.about-academy{
+    min-height: 30vh;
+    background: url("/about-academy/about-academy.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.card-about h1{
+    font-size: 50px;
+    color: #ccc;
+}
+.cards-about ,.cards-mang{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card-about p{
+    font-weight: 200;
+}
+.card-about{
+    width: 320px;
+    min-height: 50vh;
+}
+.count-courses{
+    min-height: 60vh;
+    background: url("/about-academy/landing.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.count-courses .home-shadow{
+    background-color: #07294ddc;
+}
+.count{
+    position: relative;
+}
+.count::before{
+    content: "";
+    background-color: #ffc600;
+    height: 4px;
+    border-radius: 8px;
+    width: 70px;
+    position: absolute;
+    bottom: -8px;
+    left: 18%;
+    z-index: 10;
+}
+.card-mang {
+    max-width: 370px;
+    padding: 20px 40px ;
+    border: 1px solid #cccccca2;
+    border-radius: 15px;
+    min-height: 60vh;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.card-mang div{
+    text-align: center;
+}
+.card-mang img{
+    width: 100%;
+}
+
+@media (  max-width : 650px ) {
+    .card-mang {
+        width: 320px;
+        padding: 10px 10px ;
+    }
+    .card-mang img{
+        width: 250px;
+    }    
+}

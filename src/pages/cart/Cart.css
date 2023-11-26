@@ -1,0 +1,14 @@
+.custom-stripe-button {
+    background-color: #007bff; /* لون الخلفية */
+    color: white; /* لون النص */
+    border: none; /* إزالة الحدود */
+    padding: 10px 20px; /* المساحة الداخلية */
+    font-size: 16px; /* حجم الخط */
+    border-radius: 5px; /* تدوير الزوايا */
+    cursor: pointer; /* مؤشر الفأرة */
+  }
+  
+  .custom-stripe-button:hover {
+    background-color: #0056b3;
+  }
+  

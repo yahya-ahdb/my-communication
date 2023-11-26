@@ -1,0 +1,21 @@
+.userInquiryCard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+    background: #dde7f596;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #0000002b;
+    cursor: pointer
+}
+
+.userInquiryCard:hover {
+    opacity: 0.8;
+}
+
+tr:hover {
+    background-color: #2196f30d;
+}
+.nameTable:hover{
+    background-color: #c7e5fc63;
+}

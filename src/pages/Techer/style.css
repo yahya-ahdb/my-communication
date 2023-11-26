@@ -1,0 +1,19 @@
+.dashboard {
+    background-color: red;
+    display: flex;
+}
+
+.AdminActiveLink {
+    background-color: #ffc107;
+    color: white;
+    font-weight: bold;
+}
+
+.categories-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
