@@ -1,7 +1,7 @@
-/* eslint-disable react/prop-types */
 import PublicIcon from '@mui/icons-material/Public';
 import { useNavigate } from 'react-router-dom';
 
+/* eslint-disable react/prop-types */
 export default function ArticleCard( { id,title, category, img, date  } ) {
     const navgite = useNavigate()
     const goToDetalis = () => {

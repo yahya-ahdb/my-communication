@@ -18,9 +18,7 @@ import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
-// import MailIcon from "@mui/icons-material/Mail";
 import { Chip } from "@mui/material";
-// import { ImageOutlined } from '@mui/icons-material';
 import AutoAwesomeMotionIcon from "@mui/icons-material/AutoAwesomeMotion";
 import PersonIcon from "@mui/icons-material/Person";
 import PeopleIcon from "@mui/icons-material/People";
@@ -78,7 +76,6 @@ const DrawerHeader = styled( "div" )( ( { theme } ) => ( {
   display: "flex",
   alignItems: "center",
   padding: theme.spacing( 0, 1 ),
-  // necessary for content to be below app bar
   ...theme.mixins.toolbar,
   justifyContent: "flex-start",
 } ) );

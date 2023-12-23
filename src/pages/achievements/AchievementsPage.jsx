@@ -24,7 +24,6 @@ function AchievementsPage() {
                 { data?.data?.map( ( el, index ) => {
                     return <AchievementsCard key={ index } id={ el.id } img={ apiStorge + el?.image?.id + "/" + el?.image?.file_name } title={ el.title } />
                 } ) }
-                {/* <AchievementsCard id={ 2 } img={ "678.jpg" } title={ "أفقٌ جديد لطلبة وخريجي هندسة الاتصالات في الأردن" } /> */ }
             </div>
                 <div style={ { display: "flex", justifyContent: "center",direction:"ltr" } }>
 

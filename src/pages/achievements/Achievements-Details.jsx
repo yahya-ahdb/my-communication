@@ -3,7 +3,7 @@ import { useGetAchievementByIdQuery } from "../../store/RtkSlices/achievementSli
 import { useEffect, useState } from "react";
 import { HTMLDisplay } from "../../components/utils/HTMLDisplay";
 import Loader from "../../components/utils/Loader";
-// import ReactHtmlParser from 'react-html-parser'
+
 function Achievements_Details() {
     const { state } = useLocation();
     const { isLoading, data, status } = useGetAchievementByIdQuery( state.id );
